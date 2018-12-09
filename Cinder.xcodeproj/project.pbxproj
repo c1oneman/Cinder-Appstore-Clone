@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F8D1D4F21BC2E87005EDCC2 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D1D4E21BC2E87005EDCC2 /* Extentions.swift */; };
 		6F94581C21B982EA00E0C9B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94581B21B982EA00E0C9B0 /* AppDelegate.swift */; };
 		6F94581E21B982EA00E0C9B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94581D21B982EA00E0C9B0 /* ViewController.swift */; };
 		6F94582121B982EA00E0C9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F94581F21B982EA00E0C9B0 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		6F94582621B982EB00E0C9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F94582421B982EB00E0C9B0 /* LaunchScreen.storyboard */; };
 		6F94583121B982EB00E0C9B0 /* CinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94583021B982EB00E0C9B0 /* CinderTests.swift */; };
 		6F94583C21B982EB00E0C9B0 /* CinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94583B21B982EB00E0C9B0 /* CinderUITests.swift */; };
+		6FDCEA0F21BB1369008F4D76 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FDCEA0E21BB135D008F4D76 /* Montserrat-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F8D1D4E21BC2E87005EDCC2 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		6F94581821B982EA00E0C9B0 /* Cinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F94581B21B982EA00E0C9B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F94581D21B982EA00E0C9B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		6F94583721B982EB00E0C9B0 /* CinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F94583B21B982EB00E0C9B0 /* CinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinderUITests.swift; sourceTree = "<group>"; };
 		6F94583D21B982EB00E0C9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDCEA0E21BB135D008F4D76 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				6F94581B21B982EA00E0C9B0 /* AppDelegate.swift */,
 				6F94581D21B982EA00E0C9B0 /* ViewController.swift */,
+				6F8D1D4E21BC2E87005EDCC2 /* Extentions.swift */,
 				6F94581F21B982EA00E0C9B0 /* Main.storyboard */,
 				6F94582221B982EB00E0C9B0 /* Assets.xcassets */,
 				6F94582421B982EB00E0C9B0 /* LaunchScreen.storyboard */,
 				6F94582721B982EB00E0C9B0 /* Info.plist */,
+				6FDCEA0E21BB135D008F4D76 /* Montserrat-Bold.ttf */,
 			);
 			path = Cinder;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDCEA0F21BB1369008F4D76 /* Montserrat-Bold.ttf in Resources */,
 				6F94582621B982EB00E0C9B0 /* LaunchScreen.storyboard in Resources */,
 				6F94582321B982EB00E0C9B0 /* Assets.xcassets in Resources */,
 				6F94582121B982EA00E0C9B0 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8D1D4F21BC2E87005EDCC2 /* Extentions.swift in Sources */,
 				6F94581E21B982EA00E0C9B0 /* ViewController.swift in Sources */,
 				6F94581C21B982EA00E0C9B0 /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 252UPLQN8U;
 				INFOPLIST_FILE = Cinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clSoftware.Cinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 252UPLQN8U;
 				INFOPLIST_FILE = Cinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clSoftware.Cinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
