@@ -64,3 +64,34 @@ extension UIView {
         layer.shadowRadius = shadowRadius
     }
 }
+extension UIColor {
+    enum ColorEnum: String {
+        case red   // = "red"
+        case green // = "green"
+        case blue  // = "blue"
+        case pink  // = "pink"
+        
+        func toColor() -> UIColor {
+            switch self {
+            case .red:
+                return UIColor(rgb: 0xf06449)
+            case .green:
+                return UIColor(rgb: 0x34435e)
+            case .blue:
+                return UIColor(rgb: 0x008dd5)
+            case .pink:
+                return .darkGray
+            }
+        }
+    }
+    
+    static func fromString(name: String) -> UIColor? {
+        return ColorEnum(rawValue: name)?.toColor()
+    }
+}
+
+extension Array {
+    func randomElement() -> Element {
+        return self[Int(arc4random_uniform(UInt32(self.count)))]
+    }
+}
