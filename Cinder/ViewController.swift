@@ -9,7 +9,7 @@
 import UIKit
 import ContactsUI
 import Contacts
-
+//instances of "Fake" are the card view that is displayed behind the main one
 class ViewController: UIViewController {
     var firstNames: [String] = [String]()
     var lastNames: [String] = [String]()
